@@ -1,7 +1,8 @@
 height_array = []
 scroll_friends = setInterval(function() {
-    height_array.push(document.body.scrollHeight)
-    window.scrollTo(0, h);
+    height=document.body.scrollHeight
+    height_array.push(height)
+    window.scrollTo(0,height);
     setPrev = setInterval(function() {
         if (height_array.length > 10) {
             prev = height_array[height_array.length - 10]
@@ -10,7 +11,7 @@ scroll_friends = setInterval(function() {
             }
         }
     }, 5000);
-    if (prev == document.body.scrollHeight) {
+    if (prev == document.body.scrollHeight) {   
         clearInterval(scroll_friends);
         clearInterval(setPrev);
         (function() {
