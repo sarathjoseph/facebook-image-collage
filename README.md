@@ -4,8 +4,8 @@ Javascript to create an image collage of Facebook friends
 
 <h3>Usage </h3>
 
-    Go to Facebook profile - > Click on friends <br/>
-    Open Browser Console and paste the script<br/>
+    Go to Facebook profile - > Click on friends 
+    Open Browser Console and paste the script
     Wait for 5 seconds after page scrolls to the end
 
 <br/>
